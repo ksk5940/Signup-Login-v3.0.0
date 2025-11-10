@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #df6dfa 0%, #2980b9 100%);
+            background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
             height: 100vh;
             display: flex;
             align-items: center;
@@ -25,7 +25,7 @@
         }
         h2 {
             font-weight: 700;
-            color: #b9294f;
+            color: #2e7d32;
         }
         .btn {
             margin: 10px 15px;
@@ -40,25 +40,24 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         }
         .btn-primary {
-             background-color: #09e823;
-             border-color: #2980b9;
+            background-color: #43a047;
+            border-color: #388e3c;
         }
         .btn-secondary {
-             background-color: #6c757d;
-             border-color: #6c757d;
+            background-color: #8d6e63;
+            border-color: #8d6e63;
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        /* NEW FOOTER STYLE */
         .version-footer {
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
             padding: 5px;
-            background-color: rgba(0, 0, 0, 0.6); 
+            background-color: rgba(46, 125, 50, 0.6);
             color: white;
             text-align: center;
             font-size: 0.75rem;
@@ -69,9 +68,7 @@
 <body>
     <div class="card">
         <h2 class="mb-4">Welcome to Facebook</h2>
-        
         <% 
-            // Check if the 'user' array is in the session
             if (session.getAttribute("user") != null) {
         %>
             <p class="lead text-success">You are currently logged in!</p>
@@ -87,7 +84,6 @@
         <% 
             }
         %>
-        
     </div>
     
     <footer class="version-footer">
