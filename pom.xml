@@ -6,7 +6,7 @@
 
   <groupId>com.Signup-Login</groupId>
   <artifactId>Signup-Login</artifactId> <!-- this name will nexus & .m2 repository will get-->
-  <version>v1.0.0</version>
+  <version>v3.0.0</version>
   <packaging>war</packaging>
 
   <name>Signup-Login</name> <!-- this name will appear in sonarQube projects -->
