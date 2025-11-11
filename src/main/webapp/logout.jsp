@@ -71,7 +71,9 @@
         <p class="mt-4">Redirecting to the main page in a moment...</p>
         <a href="index.jsp" class="btn btn-secondary mt-3">Click here if you are not redirected</a>
     </div>
-    
+    <div style="position: fixed; bottom: 10px; right: 20px; background: #f0f0f0; color: #333; padding: 5px 14px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); font-size: 13px; z-index: 9999;">
+    <b>Pod/Con: <b>${podName}</b>
+    </div>     
     <footer class="version-footer">
         Application Version: <%= application.getInitParameter("app.version") %>
     </footer>
